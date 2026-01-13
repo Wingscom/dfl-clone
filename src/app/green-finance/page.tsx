@@ -38,7 +38,7 @@ export default function GreenFinancePage() {
         {/* Key Initiatives Grid */}
         <div id="initiatives" className="space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white">Core Initiatives</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-black">Core Initiatives</h2>
             <p className="text-xl text-muted-foreground">Driving the transition to a net-zero economy through technology.</p>
           </div>
 
@@ -48,7 +48,7 @@ export default function GreenFinancePage() {
               <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 group-hover:scale-110 transition-transform duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-2.072-2.143-3-3-.928.857-1.928.857-3 3-.5 1-1 1.62-1 3a2.5 2.5 0 0 0 2.5 2.5c1.11 0 2.08-.75 2.5-1.81l.5.31Z"/><path d="M15.5 14.5a2.5 2.5 0 0 1-2.5-2.5c0-1.38.5-2 1-3 1.072-2.143 2.072-2.143 3-3 .928.857 1.928.857 3 3 .5 1 1 1.62 1 3a2.5 2.5 0 0 1-2.5 2.5c-1.11 0-2.08-.75-2.5-1.81l-.5.31Z"/><path d="M12 22v-6"/></svg>
               </div>
-              <h3 className="text-2xl font-bold text-black dark:text-white">Carbon Markets</h3>
+              <h3 className="text-2xl font-bold text-black dark:text-black">Carbon Markets</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Developing transparent, blockchain-based platforms for carbon credit trading and verification (MRV), connecting local projects with global buyers.
               </p>
@@ -59,7 +59,7 @@ export default function GreenFinancePage() {
               <div className="w-14 h-14 rounded-2xl bg-teal-500/10 flex items-center justify-center text-teal-500 group-hover:scale-110 transition-transform duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01"/><path d="M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20V8"/><path d="M22 4v16"/></svg>
               </div>
-              <h3 className="text-2xl font-bold text-black dark:text-white">ESG Scoring</h3>
+              <h3 className="text-2xl font-bold text-black dark:text-black">ESG Scoring</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Leveraging AI and big data to provide accurate, real-time ESG scoring for SMEs and enterprises, facilitating access to green capital.
               </p>
@@ -70,7 +70,7 @@ export default function GreenFinancePage() {
               <div className="w-14 h-14 rounded-2xl bg-green-500/10 flex items-center justify-center text-green-500 group-hover:scale-110 transition-transform duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
               </div>
-              <h3 className="text-2xl font-bold text-black dark:text-white">Green Bonds</h3>
+              <h3 className="text-2xl font-bold text-black dark:text-black">Green Bonds</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Facilitating the issuance and tokenization of green bonds to finance renewable energy and sustainable infrastructure projects.
               </p>
@@ -90,7 +90,7 @@ export default function GreenFinancePage() {
             />
           </div>
           <div className="order-1 md:order-2 space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-black leading-tight">
               Why Da Nang?
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
@@ -118,7 +118,7 @@ export default function GreenFinancePage() {
         {/* CTA */}
         <div id="collaborate" className="bg-emerald-900/10 dark:bg-emerald-900/20 rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 border border-emerald-500/20 shadow-xl">
           <div className="max-w-3xl mx-auto space-y-6">
-            <h2 className="text-3xl md:text-5xl font-bold text-black dark:text-white">Join the Sustainable Revolution</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-black dark:text-black">Join the Sustainable Revolution</h2>
             <p className="text-xl text-muted-foreground">
               Whether you are building a climate fintech startup or looking to invest in sustainable solutions, DFL is your partner.
             </p>

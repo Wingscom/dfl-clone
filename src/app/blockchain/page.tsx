@@ -236,11 +236,11 @@ export default function Page() {
           {/* CTA */}
           <div
             id="apply"
-            className="bg-gradient-to-br from-black to-gray-900 dark:from-white/10 dark:to-white/5 rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 border border-white/10 shadow-2xl relative overflow-hidden"
+            className="bg-black rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 border border-white/10 shadow-2xl relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-[url('/assets/img/grid-pattern.svg')] opacity-10" />
             <div className="relative z-10 max-w-3xl mx-auto space-y-6">
-              <h2 className="text-3xl md:text-5xl font-bold ">
+              <h2 className="text-3xl md:text-5xl font-bold text-white">
                 Start Building the Future
               </h2>
               <p className="text-xl text-gray-300">

@@ -24,7 +24,7 @@ export default function PartnersPage() {
         {/* Partners Section with Logos */}
         <div className="space-y-12">
           <div className="flex items-end justify-between border-b border-black/5 dark:border-white/5 pb-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white">Partners</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-black">Partners</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-center">
@@ -123,7 +123,7 @@ export default function PartnersPage() {
         {/* Mentors Section */}
         <div className="space-y-12">
           <div className="flex items-end justify-between border-b border-black/5 dark:border-white/5 pb-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white">Mentors</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-black">Mentors</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -136,12 +136,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/quang_pham.png" alt="Quang Pham" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Quang Pham</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Quang Pham</h3>
                   <a href="https://www.linkedin.com/in/quang-pham-057b096?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Investment Committee member at Asia Business Builders</p>
+                <p className="text-black dark:text-black font-bold mb-4">Investment Committee member at Asia Business Builders</p>
                 <p className="text-lg text-muted-foreground">
                   Investment Committee member at Asia Business Builders. Mandating investing strategy, authorizing investment decisions, and overseeing portfolio performance for a $90M Vietnam-focused PE fund.
                 </p>
@@ -157,12 +157,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/benjamin_cardarelli.png" alt="Benjamin Cardarelli" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Benjamin Cardarelli</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Benjamin Cardarelli</h3>
                   <a href="https://www.linkedin.com/in/bennythekid/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">CEO & Founder, CrossFund</p>
+                <p className="text-black dark:text-black font-bold mb-4">CEO & Founder, CrossFund</p>
                 <p className="text-lg text-muted-foreground">
                   Leading one of the most active emerging market investors, bridging Asia & MENA. Connecting vetted startups with accredited angel investors globally.
                 </p>
@@ -178,12 +178,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/tyler_mcelhaney.png" alt="Tyler McElhaney" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Tyler McElhaney</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Tyler McElhaney</h3>
                   <a href="https://www.linkedin.com/in/tylermcelhaney/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Country Head, Apex Group Ltd.</p>
+                <p className="text-black dark:text-black font-bold mb-4">Country Head, Apex Group Ltd.</p>
                 <p className="text-lg text-muted-foreground">
                   Country Head, General Director & Legal Representative - Financial & Professional Services. Leading operations for Apex Group Ltd.
                 </p>
@@ -199,12 +199,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/henry_yang.png" alt="Henry Yang" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Henry Yang</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Henry Yang</h3>
                   <a href="https://www.linkedin.com/in/henry-yang-074a1416/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Managing Director, Remi Technology</p>
+                <p className="text-black dark:text-black font-bold mb-4">Managing Director, Remi Technology</p>
                 <p className="text-lg text-muted-foreground">
                   FinTech executive at Remi Technology and Founder of 9Plus/Qcash, focused on stablecoin and cross-border payment solutions. A former Ericsson veteran, he holds a Master of Global Finance from Fordham University and Peking University.
                 </p>
@@ -220,12 +220,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/do_bui.png" alt="Do Bui" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Do Bui</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Do Bui</h3>
                   <a href="https://www.linkedin.com/in/dobuithanh/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Founding Partner & CEO, ThinkZone Ventures</p>
+                <p className="text-black dark:text-black font-bold mb-4">Founding Partner & CEO, ThinkZone Ventures</p>
                 <p className="text-lg text-muted-foreground">
                   Founding Partner & CEO of ThinkZone Ventures, a Vietnam-based early-stage VC investing in ambitious founders across Southeast Asia. He also serves on the boards of notable portfolio companies including GIMO, Fundiin, and eJOY English.
                 </p>
@@ -241,12 +241,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/davide_cali.png" alt="Davide Calì" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Davide Calì</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Davide Calì</h3>
                   <a href="https://www.linkedin.com/in/calidavide/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Chairman of Expand</p>
+                <p className="text-black dark:text-black font-bold mb-4">Chairman of Expand</p>
                 <p className="text-lg text-muted-foreground">
                   Italian advisor, investor, founder, and ex researcher working in the Tech field for more than 30 years. Successfully contributed to launch 3 startups (one up to a 3.5 B$ Pre IPO).
                 </p>
@@ -262,12 +262,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/bobby_liu.png" alt="Bobby Liu" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Bobby Liu</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Bobby Liu</h3>
                   <a href="https://www.linkedin.com/in/bobbytyliu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Co-Director of Founder Institute Vietnam<br/>Venture Partner at Touchstone Partners</p>
+                <p className="text-black dark:text-black font-bold mb-4">Co-Director of Founder Institute Vietnam<br/>Venture Partner at Touchstone Partners</p>
                 <p className="text-lg text-muted-foreground">
                   He founded Hub.IT, a coworking space and incubator in Hanoi that helped build the local entrepreneurial ecosystem. An accredited mentor for Google Developer Launchpad Accelerator, he actively advises startups across Southeast Asia. Having lived and worked in five countries, Bobby brings a global perspective to Vietnam&apos;s growing tech ecosystem.
                 </p>
@@ -283,12 +283,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/mattia_rattaggi.png" alt="Dr. Mattia L. Rattaggi" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Dr. Mattia L. Rattaggi</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Dr. Mattia L. Rattaggi</h3>
                   <a href="https://www.linkedin.com/in/m-rattaggi/?originalSubdomain=ch" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Managing Partner, METI Advisory AG</p>
+                <p className="text-black dark:text-black font-bold mb-4">Managing Partner, METI Advisory AG</p>
                 <p className="text-lg text-muted-foreground">
                   AEIR&apos;s Blockchain Advisor with 25+ years in finance and Web3 strategy. Chairman of FiCAS, Ambassador of CV Labs. Guiding navigating the legal landscape of Web3 while shaping resilient, compliant blockchain strategies.
                 </p>
@@ -304,12 +304,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/stefano_pellegrino.png" alt="Stefano Pellegrino" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Stefano Pellegrino</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Stefano Pellegrino</h3>
                   <a href="https://www.linkedin.com/in/pellegrinostefano/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Co-Founder & CEO at Aquila</p>
+                <p className="text-black dark:text-black font-bold mb-4">Co-Founder & CEO at Aquila</p>
                 <p className="text-lg text-muted-foreground">
                   3x Founder and Zero-to-One Business Builder, with over 10 years experience in green project finance across South East Asia. I focus on Data-Driven Growth in Emerging Markets, notably at the intersection between FinTech and Climate Tech.
                 </p>
@@ -325,12 +325,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/evgeniya_pozhilova.png" alt="Evgeniya Pozhilova" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Evgeniya Pozhilova</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Evgeniya Pozhilova</h3>
                   <a href="https://www.linkedin.com/in/epozhilova/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Founder & Chief M&A Strategist at GlobalVision M&A Consulting</p>
+                <p className="text-black dark:text-black font-bold mb-4">Founder & Chief M&A Strategist at GlobalVision M&A Consulting</p>
                 <p className="text-lg text-muted-foreground">
                   Specializing in Private Equity, Venture Capital, and Mergers & Acquisitions. With a focus on the Benelux region, she delivers strategic advisory and investment growth for businesses globally.
                 </p>
@@ -346,12 +346,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/federico_vasoli.png" alt="Federico Vasoli" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Federico Vasoli</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Federico Vasoli</h3>
                   <a href="https://www.linkedin.com/in/federicovasoli/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Managing Partner at dMTV Global</p>
+                <p className="text-black dark:text-black font-bold mb-4">Managing Partner at dMTV Global</p>
                 <p className="text-lg text-muted-foreground">
                   International business lawyer with 20+ years of experience specializing in asset protection, foreign investments, and digital assets across Southeast Asia and Europe. Deputy Chairman of the Italian Chamber of Commerce in Vietnam and General Counsel at EuropeanQuantum.
                 </p>
@@ -367,12 +367,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/william_taing.png" alt="William Taing" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">William Taing</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">William Taing</h3>
                   <a href="https://www.linkedin.com/in/williamtaing/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Director of Beanstalk AgTech</p>
+                <p className="text-black dark:text-black font-bold mb-4">Director of Beanstalk AgTech</p>
                 <p className="text-lg text-muted-foreground">
                   Driving innovation in sustainable agriculture across Australia and Asia. Specializing in emerging agtech, climate resilience, and food systems, working with agribusinesses, investors, and governments to scale impactful solutions. Previously held senior government roles in agriculture policy and trade, leading diplomatic programs between Australia and Asia.
                 </p>
@@ -388,12 +388,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/maaike_doyer.png" alt="Maaike Doyer" fill className="object-contain" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Maaike Doyer</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Maaike Doyer</h3>
                   <a href="https://www.linkedin.com/in/maaikedoyer/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Founder & Managing Partner at Epic Angels</p>
+                <p className="text-black dark:text-black font-bold mb-4">Founder & Managing Partner at Epic Angels</p>
                 <p className="text-lg text-muted-foreground">
                   A former partner at Business Models Inc. and an expert in strategy and innovation. She founded Epic Angels, the largest female angel network in APAC, with a mission to empower female investors and startups. Maaike is a global speaker and educator, known for increasing female representation in venture capital.
                 </p>
@@ -409,12 +409,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/thanh_giang.png" alt="Thanh Giang" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Thanh Giang</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Thanh Giang</h3>
                   <a href="https://www.linkedin.com/in/thanh-giang-pham-5494a86b/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Founder & CEO, VNFITE</p>
+                <p className="text-black dark:text-black font-bold mb-4">Founder & CEO, VNFITE</p>
                 <p className="text-lg text-muted-foreground">
                   A seasoned entrepreneur and expert in Peer-to-Peer (P2P) Lending and Fintech. As the Founder and CEO of VNFITE, he is dedicated to transforming financial inclusion in Vietnam by connecting investors with small businesses and individuals through an innovative digital lending platform.
                 </p>
@@ -430,12 +430,12 @@ export default function PartnersPage() {
                   <Image src="/assets/img/kris_supavatanakul.png" alt="Kris Supavatanakul" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-1">
-                  <h3 className="text-3xl font-bold text-black dark:text-white">Kris Supavatanakul</h3>
+                  <h3 className="text-3xl font-bold text-black dark:text-black">Kris Supavatanakul</h3>
                   <a href="https://www.linkedin.com/in/supavatanakul/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
-                <p className="text-black dark:text-white font-bold mb-4">Strategy Director at Finnomena</p>
+                <p className="text-black dark:text-black font-bold mb-4">Strategy Director at Finnomena</p>
                 <p className="text-lg text-muted-foreground">
                   A key leader at Finnomena, Thailand&apos;s leading wealth management platform. He specializes in fintech strategy, digital transformation, and scaling wealthtech solutions in Southeast Asia. With a background in strategic consulting and finance, Kris drives Finnomena&apos;s mission to provide accessible investment advice to millions through technology and data-driven insights.
                 </p>
