@@ -39,7 +39,7 @@ export default function Vision() {
         {/* Strategic Initiative Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-black leading-tight">
               Complementing the Ecosystems of HCMC & Singapore
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
@@ -62,37 +62,37 @@ export default function Vision() {
         </div>
 
         {/* Mission Targets (The Numbers) */}
-        <div className="bg-black/5 dark:bg-white/5 rounded-[2.5rem] p-12 md:p-20 border border-black/5 dark:border-white/5">
+        <div className="bg-gray-100 rounded-[2.5rem] p-12 md:p-20 border border-black/5 dark:border-white/5">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-black dark:text-white">Our 2030 Mission</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-black dark:text-black">Our 2030 Mission</h2>
             <p className="text-xl text-muted-foreground">Ambitious targets driving real economic impact for Central Vietnam.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Target 1 */}
-            <div className="p-8 rounded-[2rem] bg-card/50 backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300">
+            <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300">
               <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-primary to-emerald-500">
                 200
               </div>
-              <h3 className="text-2xl font-bold text-black dark:text-white">Startups Incubated</h3>
+              <h3 className="text-2xl font-bold text-black dark:text-black">Startups Incubated</h3>
               <p className="text-muted-foreground">Nurturing high-growth ventures in AI, Blockchain, and Green Finance.</p>
             </div>
 
             {/* Target 2 */}
-            <div className="p-8 rounded-[2rem] bg-card/50 backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-100">
+            <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-100">
               <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-cyan-500">
                 2,000
               </div>
-              <h3 className="text-2xl font-bold text-black dark:text-white">High-Quality Jobs</h3>
+              <h3 className="text-2xl font-bold text-black dark:text-black">High-Quality Jobs</h3>
               <p className="text-muted-foreground">Creating careers for the next generation of Vietnamese tech talent.</p>
             </div>
 
             {/* Target 3 */}
-            <div className="p-8 rounded-[2rem] bg-card/50 backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-200">
+            <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-200">
               <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500">
                 $200M
               </div>
-              <h3 className="text-2xl font-bold text-black dark:text-white">Investment Attracted</h3>
+              <h3 className="text-2xl font-bold text-black dark:text-black">Investment Attracted</h3>
               <p className="text-muted-foreground">Direct foreign investment into Da Nang&apos;s digital economy.</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Vision() {
 
         {/* CTA */}
         <div className="text-center space-y-8 pt-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white">Be Part of the Vision</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-black">Be Part of the Vision</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center whitespace-nowrap text-base font-bold transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full bg-primary hover:bg-primary/90 text-white shadow-xl hover:shadow-2xl h-12 px-8">
               Contact Us

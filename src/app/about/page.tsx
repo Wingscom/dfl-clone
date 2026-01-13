@@ -272,7 +272,7 @@ export default function AboutPage() {
         </div>
 
         {/* Infrastructure Stats */}
-        <div className="bg-white rounded-[2.5rem] p-8 md:p-12 border border-black/5 dark:border-white/5">
+        <div className="bg-gray-100 rounded-[2.5rem] p-8 md:p-12 border border-black/5 dark:border-white/5">
           <h3 className="text-2xl font-bold  mb-8 text-center">Infrastructure at a Glance</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
