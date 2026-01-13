@@ -32,7 +32,7 @@ export default function DataPage() {
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text text-black dark:text-white">
               Secure, Compliant Data for <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-500">
-                Real Financial Innovation
+                Real Financial Innovation 
               </span>
             </h1>
             <p className="text-xl font-medium text-muted-foreground">
