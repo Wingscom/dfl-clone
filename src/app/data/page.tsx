@@ -89,7 +89,7 @@ export default function DataPage() {
                 <div className="w-16 h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                 </div>
-                <h3 className="text-xl font-bold ">Lower Cost</h3>
+                <h3 className="text-xl font-bold">Lower Cost</h3>
                 <p className="text-muted-foreground">Significantly reduce the barrier to entry for compliant data access.</p>
               </div>
 
