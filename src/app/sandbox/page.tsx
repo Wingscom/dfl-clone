@@ -27,7 +27,7 @@ export default function SandboxPage() {
 			{/* Background Elements (from HTML body) */}
 			<div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
 				<div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] opacity-30 animate-blob" />
-				<div className="absolute top-[20%] right-[-10%] w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[120px] opacity-30 animate-blob animation-delay-2000" />
+				<div className="absolute top-[20%] right-[-10%] w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] opacity-30 animate-blob animation-delay-2000" />
 				<div className="absolute bottom-[-10%] left-[20%] w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] opacity-30 animate-blob animation-delay-4000" />
 			</div>
 
@@ -46,7 +46,7 @@ export default function SandboxPage() {
 					<div className="relative z-20 max-w-4xl p-12 md:p-20 space-y-8">
 						<h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
 							Vietnam&apos;s First <br />
-							<span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">
+							<span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-highlight">
 								Regulatory Sandbox
 							</span>
 						</h1>
@@ -69,8 +69,8 @@ export default function SandboxPage() {
 
 					<div className="grid md:grid-cols-3 gap-8">
 						{/* Feature 1 */}
-						<div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-emerald-500/5 transition-all duration-300 space-y-6 group">
-							<div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 group-hover:scale-110 transition-transform duration-300">
+						<div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-accent/5 transition-all duration-300 space-y-6 group">
+							<div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center text-accent group-hover:scale-110 transition-transform duration-300">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="28"
@@ -94,8 +94,8 @@ export default function SandboxPage() {
 						</div>
 
 						{/* Feature 2 */}
-						<div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-teal-500/5 transition-all duration-300 space-y-6 group">
-							<div className="w-14 h-14 rounded-2xl bg-teal-500/10 flex items-center justify-center text-teal-500 group-hover:scale-110 transition-transform duration-300">
+						<div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-secondary/5 transition-all duration-300 space-y-6 group">
+							<div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:scale-110 transition-transform duration-300">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="28"
@@ -120,8 +120,8 @@ export default function SandboxPage() {
 						</div>
 
 						{/* Feature 3 */}
-						<div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-green-500/5 transition-all duration-300 space-y-6 group">
-							<div className="w-14 h-14 rounded-2xl bg-green-500/10 flex items-center justify-center text-green-500 group-hover:scale-110 transition-transform duration-300">
+						<div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-highlight/5 transition-all duration-300 space-y-6 group">
+							<div className="w-14 h-14 rounded-2xl bg-highlight/10 flex items-center justify-center text-highlight group-hover:scale-110 transition-transform duration-300">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="28"
@@ -206,7 +206,7 @@ export default function SandboxPage() {
 					</div>
 
 					<div className="relative rounded-[2.5rem] overflow-hidden aspect-square md:aspect-auto md:h-[600px] border border-black/5 dark:border-white/5 shadow-2xl">
-						<div className="absolute inset-0 bg-gradient-to-bl from-emerald-500/20 to-transparent z-10" />
+						<div className="absolute inset-0 bg-gradient-to-bl from-accent/20 to-transparent z-10" />
 						<img
 							src="/assets/img/generated_images/digital_network_expansion.png"
 							alt="Sandbox Process"
@@ -216,7 +216,7 @@ export default function SandboxPage() {
 				</div>
 
 				{/* CTA */}
-				<div className="bg-emerald-900/10 dark:bg-emerald-900/20 rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 border border-emerald-500/20 shadow-xl">
+				<div className="bg-secondary/10 dark:bg-secondary/20 rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 border border-accent/20 shadow-xl">
 					<div className="max-w-3xl mx-auto space-y-6">
 						<h2 className="text-3xl md:text-5xl font-bold ">Ready to Innovate Safely?</h2>
 						<p className="text-xl text-muted-foreground">

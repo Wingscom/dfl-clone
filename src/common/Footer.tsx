@@ -128,7 +128,7 @@ export default function Footer() {
         <section className="grid md:grid-cols-5 gap-8 pt-2">
           <div className="col-span-1 md:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
-              <Image src="/assets/img/dfl_1764273424335.png" alt="DFL Logo" width={100} height={32} className="h-8 w-auto" />
+              <Image src="/assets/img/logo-v2-dfl.jpg" alt="DFL Logo" width={100} height={32} className="h-8 w-auto" />
             </div>
             <p className="text-muted-foreground text-sm">
               The Future of Green Finance & Digital Innovation

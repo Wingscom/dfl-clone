@@ -28,7 +28,7 @@ export default function Contact() {
         <div className="text-center space-y-8 fade-in-up max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-black tracking-tighter glow-text text-black dark:text-white">
             Ready to Shape <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               the Future?
             </span>
           </h1>

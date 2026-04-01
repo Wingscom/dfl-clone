@@ -31,7 +31,7 @@ export default function DataPage() {
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text text-black dark:text-white">
               Secure, Compliant Data for <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                 Real Financial Innovation 
               </span>
             </h1>
@@ -95,7 +95,7 @@ export default function DataPage() {
 
               {/* Benefit 2 */}
               <div className="text-center space-y-4">
-                <div className="w-16 h-16 mx-auto rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500">
+                <div className="w-16 h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                 </div>
                 <h3 className="text-xl font-bold ">Accelerate Innovation</h3>
@@ -104,7 +104,7 @@ export default function DataPage() {
 
               {/* Benefit 3 */}
               <div className="text-center space-y-4">
-                <div className="w-16 h-16 mx-auto rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-500">
+                <div className="w-16 h-16 mx-auto rounded-full bg-accent/10 flex items-center justify-center text-accent">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
                 </div>
                 <h3 className="text-xl font-bold ">Reduce Risk</h3>

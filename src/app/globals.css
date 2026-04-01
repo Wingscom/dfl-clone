@@ -7,19 +7,21 @@
   --card-foreground: 240 10% 3.9%;
   --popover: 0 0% 100%;
   --popover-foreground: 240 10% 3.9%;
-  --primary: 122 39% 49%;
+  --primary: 210 100% 33%;
   --primary-foreground: 0 0% 98%;
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
+  --secondary: 186 100% 30%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 210 36% 95%;
+  --muted-foreground: 210 15% 40%;
+  --accent: 176 100% 33%;
+  --accent-foreground: 0 0% 98%;
+  --highlight: 188 100% 44%;
+  --highlight-foreground: 0 0% 98%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 122 39% 49%;
+  --border: 210 24% 88%;
+  --input: 210 24% 88%;
+  --ring: 188 100% 44%;
   --radius: 1.5rem;
 }
 
@@ -30,19 +32,21 @@
   --card-foreground: 0 0% 98%;
   --popover: 240 10% 3.9%;
   --popover-foreground: 0 0% 98%;
-  --primary: 122 39% 49%;
+  --primary: 210 100% 33%;
   --primary-foreground: 0 0% 98%;
-  --secondary: 240 3.7% 15.9%;
+  --secondary: 186 100% 30%;
   --secondary-foreground: 0 0% 98%;
   --muted: 240 3.7% 15.9%;
   --muted-foreground: 240 5% 64.9%;
-  --accent: 122 39% 49%;
+  --accent: 176 100% 33%;
   --accent-foreground: 0 0% 98%;
+  --highlight: 188 100% 44%;
+  --highlight-foreground: 0 0% 98%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
   --border: 240 3.7% 15.9%;
   --input: 240 3.7% 15.9%;
-  --ring: 122 39% 49%;
+  --ring: 188 100% 44%;
 }
 
 @theme inline {
@@ -53,9 +57,13 @@
   --color-ring: hsl(var(--ring));
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
   --color-muted-foreground: hsl(var(--muted-foreground));
   --color-accent: hsl(var(--accent));
   --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-highlight: hsl(var(--highlight));
+  --color-highlight-foreground: hsl(var(--highlight-foreground));
   --color-card: hsl(var(--card));
   --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
   --radius-md: calc(var(--radius) - 2px);
