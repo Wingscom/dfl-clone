@@ -39,7 +39,7 @@ export default function Header() {
       <nav className="w-full max-w-7xl bg-background/60 backdrop-blur-xl border border-black/5 dark:border-white/10 rounded-md px-4 md:px-8 py-3 flex items-center justify-between shadow-sm shadow-black/[0.02] dark:shadow-black/5">
         <div className="flex items-center gap-3">
           <Link href="/" className="block">
-            <Image src="/assets/img/dfl_1764273424335.png" alt="DFL Logo" width={120} height={40} className="h-10 w-auto object-contain" />
+            <Image src="/assets/img/logo-v2-dfl.jpg" alt="DFL Logo" width={220} height={100} className="h-10 w-auto object-contain" />
           </Link>
         </div>
 

@@ -7,8 +7,8 @@ export default function Contact() {
   useEffect(() => {
     // Simple obfuscation to prevent basic scraping
     const link = document.getElementById('contact-email') as HTMLAnchorElement;
-    const u = 'contact';
-    const d = 'dfl.center';
+    const u = 'trung.pham';
+    const d = 'dfl24.com';
 
     if (link) {
       setTimeout(() => {
