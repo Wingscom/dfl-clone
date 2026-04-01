@@ -22,7 +22,7 @@ export default function Home() {
           <div className="space-y-6">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] glow-text text-black dark:text-white">
               The Future of <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                 Innovative Sustainable Finance
               </span>
             </h1>

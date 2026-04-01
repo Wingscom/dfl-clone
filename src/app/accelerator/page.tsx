@@ -18,7 +18,7 @@ export default function AcceleratorPage() {
 				<div className="space-y-6">
 					<h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text ">
 						A Data-Backed Accelerator for <br />
-						<span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-emerald-500">
+						<span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
 							AI-Fintech Builders
 						</span>
 					</h1>
@@ -99,7 +99,7 @@ export default function AcceleratorPage() {
 
 					{/* Feature 2 */}
 					<div className="flex gap-4 p-6 rounded-2xl bg-background/40 border border-black/5 dark:border-white/5">
-						<div className="shrink-0 w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500">
+						<div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
@@ -129,7 +129,7 @@ export default function AcceleratorPage() {
 
 					{/* Feature 3 */}
 					<div className="flex gap-4 p-6 rounded-2xl bg-background/40 border border-black/5 dark:border-white/5">
-						<div className="shrink-0 w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-500">
+						<div className="shrink-0 w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
@@ -155,7 +155,7 @@ export default function AcceleratorPage() {
 
 					{/* Feature 4 */}
 					<div className="flex gap-4 p-6 rounded-2xl bg-background/40 border border-black/5 dark:border-white/5">
-						<div className="shrink-0 w-12 h-12 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-500">
+						<div className="shrink-0 w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"

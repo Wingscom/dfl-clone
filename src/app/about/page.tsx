@@ -24,7 +24,7 @@ export default function AboutPage() {
       <div className="text-center space-y-6 max-w-4xl mx-auto fade-in-up">
         <h1 className="text-5xl md:text-6xl font-black tracking-tighter glow-text ">
           The Future of Finance <br/>
-          <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-emerald-500">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
             Starts in Da Nang
           </span>
         </h1>
@@ -111,7 +111,7 @@ export default function AboutPage() {
 
           {/* Kiel DiGiovanni */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
-            <div className="absolute inset-0 bg-linear-to-br from-teal-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-secondary/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -132,7 +132,7 @@ export default function AboutPage() {
 
           {/* Vincenzo Cartelli */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
-            <div className="absolute inset-0 bg-linear-to-br from-orange-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-accent/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -174,7 +174,7 @@ export default function AboutPage() {
 
           {/* Luciano Wu */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
-            <div className="absolute inset-0 bg-linear-to-br from-blue-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-primary/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -280,19 +280,19 @@ export default function AboutPage() {
               <p className="text-sm font-bold ">Airports</p>
             </div>
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
-              <div className="text-4xl font-black text-blue-500">3</div>
+              <div className="text-4xl font-black text-primary">3</div>
               <p className="text-sm font-bold ">Seaports</p>
             </div>
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
-              <div className="text-4xl font-black text-purple-500">1</div>
+              <div className="text-4xl font-black text-secondary">1</div>
               <p className="text-sm font-bold ">Hi-tech Park</p>
             </div>
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
-              <div className="text-4xl font-black text-orange-500">1</div>
+              <div className="text-4xl font-black text-accent">1</div>
               <p className="text-sm font-bold ">Free Trade Zone</p>
             </div>
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
-              <div className="text-4xl font-black text-teal-500">1</div>
+              <div className="text-4xl font-black text-secondary">1</div>
               <p className="text-sm font-bold ">Open Economic Zone</p>
             </div>
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">

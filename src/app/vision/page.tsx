@@ -24,7 +24,7 @@ export default function Vision() {
 
             <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
               Building the <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                 Silicon Valley
               </span> <br/>
               of Central Vietnam
@@ -71,7 +71,7 @@ export default function Vision() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Target 1 */}
             <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300">
-              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-primary to-emerald-500">
+              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-primary to-accent">
                 200
               </div>
               <h3 className="text-2xl font-bold text-black dark:text-black">Startups Incubated</h3>
@@ -80,7 +80,7 @@ export default function Vision() {
 
             {/* Target 2 */}
             <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-100">
-              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-cyan-500">
+              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-primary to-highlight">
                 2,000
               </div>
               <h3 className="text-2xl font-bold text-black dark:text-black">High-Quality Jobs</h3>
@@ -89,7 +89,7 @@ export default function Vision() {
 
             {/* Target 3 */}
             <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-200">
-              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500">
+              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-secondary to-pink-500">
                 $200M
               </div>
               <h3 className="text-2xl font-bold text-black dark:text-black">Investment Attracted</h3>

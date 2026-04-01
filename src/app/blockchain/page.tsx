@@ -32,7 +32,7 @@ export default function Page() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-primary selection:text-primary-foreground font-sans">
       <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] opacity-30 animate-blob" />
-        <div className="absolute top-[20%] right-[-10%] w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[120px] opacity-30 animate-blob animation-delay-2000" />
+        <div className="absolute top-[20%] right-[-10%] w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] opacity-30 animate-blob animation-delay-2000" />
         <div className="absolute bottom-[-10%] left-[20%] w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] opacity-30 animate-blob animation-delay-4000" />
       </div>
 
@@ -52,7 +52,7 @@ export default function Page() {
             <div className="relative z-20 max-w-4xl p-12 md:p-20 space-y-8">
               <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
                 The Future of <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-highlight">
                   Blockchain Innovation
                 </span>
               </h1>
@@ -68,8 +68,8 @@ export default function Page() {
           {/* Key Benefits Grid */}
           <div className="grid md:grid-cols-3 gap-8">
             {/* Benefit 1 */}
-            <div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-emerald-500/5 transition-all duration-300 space-y-6 group">
-              <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 group-hover:scale-110 transition-transform duration-300">
+            <div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-accent/5 transition-all duration-300 space-y-6 group">
+              <div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center text-accent group-hover:scale-110 transition-transform duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -97,8 +97,8 @@ export default function Page() {
             </div>
 
             {/* Benefit 2 */}
-            <div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-emerald-500/5 transition-all duration-300 space-y-6 group">
-              <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 group-hover:scale-110 transition-transform duration-300">
+            <div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-accent/5 transition-all duration-300 space-y-6 group">
+              <div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center text-accent group-hover:scale-110 transition-transform duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -124,8 +124,8 @@ export default function Page() {
             </div>
 
             {/* Benefit 3 */}
-            <div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-teal-500/5 transition-all duration-300 space-y-6 group">
-              <div className="w-14 h-14 rounded-2xl bg-teal-500/10 flex items-center justify-center text-teal-500 group-hover:scale-110 transition-transform duration-300">
+            <div className="p-8 rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-secondary/5 transition-all duration-300 space-y-6 group">
+              <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:scale-110 transition-transform duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -169,7 +169,7 @@ export default function Page() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Area 1 */}
               <div className="flex gap-6 p-8 rounded-[2rem] bg-black/5 dark:bg-white/5 border border-transparent hover:border-primary/20 transition-colors">
-                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white shadow-lg">
+                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-accent to-secondary flex items-center justify-center text-white shadow-lg">
                   <span className="text-2xl font-bold">01</span>
                 </div>
                 <div className="space-y-3">
@@ -185,7 +185,7 @@ export default function Page() {
 
               {/* Area 2 */}
               <div className="flex gap-6 p-8 rounded-[2rem] bg-black/5 dark:bg-white/5 border border-transparent hover:border-primary/20 transition-colors">
-                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center text-white shadow-lg">
+                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-secondary to-highlight flex items-center justify-center text-white shadow-lg">
                   <span className="text-2xl font-bold">02</span>
                 </div>
                 <div className="space-y-3">
@@ -201,7 +201,7 @@ export default function Page() {
 
               {/* Area 3 */}
               <div className="flex gap-6 p-8 rounded-[2rem] bg-black/5 dark:bg-white/5 border border-transparent hover:border-primary/20 transition-colors">
-                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center text-white shadow-lg">
+                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-highlight to-emerald-600 flex items-center justify-center text-white shadow-lg">
                   <span className="text-2xl font-bold">03</span>
                 </div>
                 <div className="space-y-3">
@@ -217,7 +217,7 @@ export default function Page() {
 
               {/* Area 4 */}
               <div className="flex gap-6 p-8 rounded-[2rem] bg-black/5 dark:bg-white/5 border border-transparent hover:border-primary/20 transition-colors">
-                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white shadow-lg">
+                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-accent to-secondary flex items-center justify-center text-white shadow-lg">
                   <span className="text-2xl font-bold">04</span>
                 </div>
                 <div className="space-y-3">
