@@ -201,7 +201,7 @@ export default function Page() {
 
               {/* Area 3 */}
               <div className="flex gap-6 p-8 rounded-[2rem] bg-black/5 dark:bg-white/5 border border-transparent hover:border-primary/20 transition-colors">
-                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-highlight to-emerald-600 flex items-center justify-center text-white shadow-lg">
+                <div className="shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-highlight to-accent flex items-center justify-center text-white shadow-lg">
                   <span className="text-2xl font-bold">03</span>
                 </div>
                 <div className="space-y-3">

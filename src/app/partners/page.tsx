@@ -137,7 +137,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Quang Pham</h3>
-                  <a href="https://www.linkedin.com/in/quang-pham-057b096?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/quang-pham-057b096?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -158,7 +158,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Benjamin Cardarelli</h3>
-                  <a href="https://www.linkedin.com/in/bennythekid/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/bennythekid/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -179,7 +179,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Tyler McElhaney</h3>
-                  <a href="https://www.linkedin.com/in/tylermcelhaney/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/tylermcelhaney/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -200,7 +200,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Henry Yang</h3>
-                  <a href="https://www.linkedin.com/in/henry-yang-074a1416/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/henry-yang-074a1416/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -221,7 +221,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Do Bui</h3>
-                  <a href="https://www.linkedin.com/in/dobuithanh/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/dobuithanh/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -242,7 +242,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Davide Calì</h3>
-                  <a href="https://www.linkedin.com/in/calidavide/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/calidavide/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -263,7 +263,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Bobby Liu</h3>
-                  <a href="https://www.linkedin.com/in/bobbytyliu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/bobbytyliu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -276,7 +276,7 @@ export default function PartnersPage() {
 
             {/* Dr. Mattia L. Rattaggi */}
             <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-[300px] flex flex-col justify-between">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-highlight/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
               <div className="relative z-10">
                 <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -284,7 +284,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Dr. Mattia L. Rattaggi</h3>
-                  <a href="https://www.linkedin.com/in/m-rattaggi/?originalSubdomain=ch" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/m-rattaggi/?originalSubdomain=ch" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -305,7 +305,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Stefano Pellegrino</h3>
-                  <a href="https://www.linkedin.com/in/pellegrinostefano/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/pellegrinostefano/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -326,7 +326,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Evgeniya Pozhilova</h3>
-                  <a href="https://www.linkedin.com/in/epozhilova/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/epozhilova/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -339,7 +339,7 @@ export default function PartnersPage() {
 
             {/* Federico Vasoli */}
             <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-[300px] flex flex-col justify-between">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
               <div className="relative z-10">
                 <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -347,7 +347,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Federico Vasoli</h3>
-                  <a href="https://www.linkedin.com/in/federicovasoli/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/federicovasoli/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -368,7 +368,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">William Taing</h3>
-                  <a href="https://www.linkedin.com/in/williamtaing/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/williamtaing/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -381,7 +381,7 @@ export default function PartnersPage() {
 
             {/* Maaike Doyer */}
             <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-[300px] flex flex-col justify-between">
-              <div className="absolute inset-0 bg-gradient-to-br from-pink-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-highlight/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
               <div className="relative z-10">
                 <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -389,7 +389,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Maaike Doyer</h3>
-                  <a href="https://www.linkedin.com/in/maaikedoyer/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/maaikedoyer/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -410,7 +410,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Thanh Giang</h3>
-                  <a href="https://www.linkedin.com/in/thanh-giang-pham-5494a86b/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/thanh-giang-pham-5494a86b/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>
@@ -431,7 +431,7 @@ export default function PartnersPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-1">
                   <h3 className="text-3xl font-bold text-black dark:text-black">Kris Supavatanakul</h3>
-                  <a href="https://www.linkedin.com/in/supavatanakul/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                  <a href="https://www.linkedin.com/in/supavatanakul/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                   </a>
                 </div>

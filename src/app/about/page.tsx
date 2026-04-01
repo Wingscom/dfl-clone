@@ -90,7 +90,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* My Ha Tran */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
-            <div className="absolute inset-0 bg-linear-to-br from-amber-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-accent/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -98,7 +98,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-3 mb-1">
                 <h3 className="text-3xl font-bold ">My Ha Tran</h3>
-                <a href="https://www.linkedin.com/in/tranhmy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                <a href="https://www.linkedin.com/in/tranhmy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
               </div>
@@ -119,7 +119,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-3 mb-1">
                 <h3 className="text-3xl font-bold ">Kiel DiGiovanni</h3>
-                <a href="https://www.linkedin.com/in/kiel-digiovanni/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                <a href="https://www.linkedin.com/in/kiel-digiovanni/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
               </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-3 mb-1">
                 <h3 className="text-3xl font-bold ">Vincenzo Cartelli</h3>
-                <a href="https://www.linkedin.com/in/vincenzo-cartelli/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                <a href="https://www.linkedin.com/in/vincenzo-cartelli/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
               </div>
@@ -153,7 +153,7 @@ export default function AboutPage() {
 
           {/* Nikhil Porwal */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
-            <div className="absolute inset-0 bg-linear-to-br from-amber-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-accent/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
@@ -161,7 +161,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-3 mb-1">
                 <h3 className="text-3xl font-bold ">Nikhil Porwal</h3>
-                <a href="https://www.linkedin.com/in/nikhilporwal/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                <a href="https://www.linkedin.com/in/nikhilporwal/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
               </div>
@@ -182,7 +182,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-3 mb-1">
                 <h3 className="text-3xl font-bold ">Luciano Wu</h3>
-                <a href="https://www.linkedin.com/in/han4wluc/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#0077b5] transition-colors">
+                <a href="https://www.linkedin.com/in/han4wluc/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-highlight transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
               </div>
@@ -300,7 +300,7 @@ export default function AboutPage() {
               <p className="text-sm font-bold ">Operating Industrial Zones</p>
             </div>
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
-              <div className="text-4xl font-black text-pink-500">4</div>
+              <div className="text-4xl font-black text-highlight">4</div>
               <p className="text-sm font-bold ">Operating ICT Parks</p>
             </div>
           </div>

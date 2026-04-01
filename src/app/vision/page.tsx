@@ -89,7 +89,7 @@ export default function Vision() {
 
             {/* Target 3 */}
             <div className="p-8 rounded-[2rem] bg-white backdrop-blur-sm border border-black/5 dark:border-white/5 text-center space-y-4 group hover:scale-105 transition-transform duration-300 delay-200">
-              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-secondary to-pink-500">
+              <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-secondary to-highlight">
                 $200M
               </div>
               <h3 className="text-2xl font-bold text-black dark:text-black">Investment Attracted</h3>
