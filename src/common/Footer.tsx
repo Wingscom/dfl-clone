@@ -98,7 +98,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xl md:text-2xl font-bold text-foreground">Email</p>
-                    <p className="text-base md:text-lg leading-relaxed text-muted-foreground mt-1">trung.pham@dfl24.com</p>
+                    <p className="text-base md:text-lg leading-relaxed text-muted-foreground mt-1">phong.do@dfl24.com</p>
                   </div>
                 </div>
 
