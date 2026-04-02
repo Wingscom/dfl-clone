@@ -8,7 +8,7 @@ export default function Contact() {
     // Simple obfuscation to prevent basic scraping
     const link = document.getElementById('contact-email') as HTMLAnchorElement;
     const u = 'phong.do';
-    const d = '@dfl24.com';
+    const d = 'dfl24.com';
 
     if (link) {
       setTimeout(() => {
