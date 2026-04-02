@@ -92,7 +92,7 @@ export default function Header() {
 
         {/* Desktop Contact Button */}
         <Link href="/contact" className="hidden md:inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full px-6 bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(0,85,168,0.3)] hover:shadow-[0_0_30px_rgba(0,85,168,0.5)] transition-all duration-300 h-10">
-          Contact Us
+          Apply for Sandbox
         </Link>
 
         {/* Mobile Menu Button */}
@@ -143,7 +143,7 @@ export default function Header() {
 
         <div className="pt-4 border-t border-black/5 dark:border-white/5">
           <Link href="/contact" onClick={toggleMobileMenu} className="flex items-center justify-center w-full py-4 text-lg font-bold text-white bg-primary rounded-xl shadow-lg">
-            Contact Us
+            Apply for Sandbox
           </Link>
         </div>
       </div>

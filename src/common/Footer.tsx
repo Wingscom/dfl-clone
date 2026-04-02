@@ -70,7 +70,7 @@ export default function Footer() {
 
               <button
                 type="submit"
-                className="w-full rounded-xl bg-primary py-4 text-lg md:text-xl font-bold text-white shadow-md transition-all duration-300 hover:bg-primary/90 hover:shadow-lg"
+                className="w-full rounded-xl bg-primary py-4 text-xl md:text-xl font-bold text-white shadow-md transition-all duration-300 hover:bg-primary/90 hover:shadow-lg"
               >
                 Submit Registration
               </button>
@@ -115,7 +115,7 @@ export default function Footer() {
             </div>
 
             <div className="rounded-[1.75rem] bg-primary p-6 md:p-8 text-primary-foreground shadow-xl">
-              <h4 className="text-2xl md:text-3xl font-bold">Join the Community</h4>
+              <h4 className="text-xl md:text-2xl font-bold">Join DFL in DAVAS 2026</h4>
               <p className="mt-4 text-base md:text-lg text-primary-foreground/90 leading-relaxed">Connect with AI experts in Da Nang.</p>
               <Link href="/partners" className="inline-flex mt-7 items-center gap-2 text-lg md:text-xl font-bold text-primary-foreground underline underline-offset-4 hover:text-primary-foreground/90 transition-colors">
                 Learn more
