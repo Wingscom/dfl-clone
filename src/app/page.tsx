@@ -17,19 +17,24 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background"></div>
         </div>
-
         <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8 fade-in-up">
+          <div className="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-primary/30 bg-primary/5 backdrop-blur-md shadow-sm">
+            <span className="text-sm font-bold tracking-widest uppercase text-primary">
+              Sandbox your Future
+            </span>
+          </div>
           <div className="space-y-6">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] glow-text text-black dark:text-white">
-              The Future of <br />
+              Your Gateway to <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                Innovative Sustainable Finance
+                Fintech Innovation in Vietnam
               </span>
             </h1>
           </div>
 
           <p className="text-lg md:text-xl font-bold max-w-3xl mx-auto leading-relaxed text-black dark:text-black">
-            The premier incubator and regulatory sandbox in Central Vietnam. We empower startups to build Innovative Fintech solutions (with a focus in AI, Blockchain, and Sustainable Finance) under a secure and international legal framework with privileged access to the fast growing Vietnamese market.
+            Sandbox-as-a-Service. Cross-border testing. Regulatory acceleration.
+ Everything fintech companies need to build, test, and scale — in one platform.
           </p>
         </div>
       </section>
@@ -132,7 +137,7 @@ export default function Home() {
 
           <div className="pt-4">
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 text-base font-bold text-white bg-primary hover:bg-primary/90 h-11 px-8 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              Contact Us
+              Apply for Sandbox
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </Link>
           </div>

@@ -103,7 +103,7 @@ export default function Vision() {
           <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-black">Be Part of the Vision</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center whitespace-nowrap text-base font-bold transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full bg-primary hover:bg-primary/90 text-white shadow-xl hover:shadow-2xl h-12 px-8">
-              Contact Us
+              Apply for Sandbox
             </Link>
           </div>
         </div>
