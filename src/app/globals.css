@@ -1,52 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  --background: 210 30% 98%;
+  --foreground: 213 50% 12%;
   --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
+  --card-foreground: 213 50% 12%;
   --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
-  --primary: 210 100% 33%;
+  --popover-foreground: 213 50% 12%;
+  --primary: 214 93% 33%;        /* #0540A9 - logo blue */
   --primary-foreground: 0 0% 98%;
-  --secondary: 186 100% 30%;
+  --secondary: 174 100% 35%;     /* #00B4A6 - teal */
   --secondary-foreground: 0 0% 98%;
-  --muted: 210 36% 95%;
-  --muted-foreground: 210 15% 40%;
-  --accent: 176 100% 33%;
+  --accent: 213 84% 56%;         /* #2F80ED - electric blue */
   --accent-foreground: 0 0% 98%;
-  --highlight: 188 100% 44%;
-  --highlight-foreground: 0 0% 98%;
+  --highlight: 191 100% 50%;     /* #00D4FF - cyan */
+  --highlight-foreground: 213 50% 12%;
+  --muted: 210 30% 95%;
+  --muted-foreground: 215 15% 45%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 210 24% 88%;
-  --input: 210 24% 88%;
-  --ring: 188 100% 44%;
-  --radius: 1.5rem;
+  --border: 214 20% 90%;
+  --input: 214 20% 90%;
+  --ring: 214 93% 33%;
+  --radius: 1rem;
 }
 
 .dark {
-  --background: 240 10% 3.9%;
+  --background: 220 25% 6%;
   --foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
+  --card: 220 20% 10%;
   --card-foreground: 0 0% 98%;
-  --popover: 240 10% 3.9%;
+  --popover: 220 20% 10%;
   --popover-foreground: 0 0% 98%;
-  --primary: 210 100% 33%;
+  --primary: 214 93% 40%;
   --primary-foreground: 0 0% 98%;
-  --secondary: 186 100% 30%;
+  --secondary: 174 100% 35%;
   --secondary-foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --accent: 176 100% 33%;
+  --accent: 213 84% 56%;
   --accent-foreground: 0 0% 98%;
-  --highlight: 188 100% 44%;
+  --highlight: 191 100% 50%;
   --highlight-foreground: 0 0% 98%;
+  --muted: 220 15% 15%;
+  --muted-foreground: 220 10% 60%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 188 100% 44%;
+  --border: 220 15% 18%;
+  --input: 220 15% 18%;
+  --ring: 214 93% 40%;
 }
 
 @theme inline {
@@ -59,13 +59,33 @@
   --color-primary-foreground: hsl(var(--primary-foreground));
   --color-secondary: hsl(var(--secondary));
   --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
   --color-muted-foreground: hsl(var(--muted-foreground));
   --color-accent: hsl(var(--accent));
   --color-accent-foreground: hsl(var(--accent-foreground));
   --color-highlight: hsl(var(--highlight));
   --color-highlight-foreground: hsl(var(--highlight-foreground));
   --color-card: hsl(var(--card));
-  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  /* Brand colors — direct access */
+  --color-navy: #0B1F3A;
+  --color-blue-logo: #0540A9;
+  --color-blue-mid: #1260C7;
+  --color-blue-electric: #2F80ED;
+  --color-teal: #00B4A6;
+  --color-teal-light: #3DD6C8;
+  --color-cyan: #00D4FF;
+  --color-dark-gray: #1F2937;
+  --color-light-gray: #F5F7FA;
+  --color-light-bg: #F0F4FA;
+
+  /* Typography — Sora for headings, DM Sans for body */
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Sora", ui-sans-serif, system-ui, sans-serif;
+
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: 0.75rem;
@@ -80,6 +100,11 @@ body {
 
 * {
   border-color: var(--color-border);
+}
+
+/* Heading font utility */
+.font-heading {
+  font-family: var(--font-heading);
 }
 
 .dark .glow-text {

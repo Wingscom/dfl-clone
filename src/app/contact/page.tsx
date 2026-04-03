@@ -26,7 +26,7 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 pt-32 mt-20 pb-20 min-h-[60vh] flex flex-col items-center justify-center">
 
         <div className="text-center space-y-8 fade-in-up max-w-3xl">
-          <h1 className="text-5xl md:text-6xl font-black tracking-tighter glow-text text-black dark:text-white">
+          <h1 className="text-5xl md:text-6xl font-black tracking-tighter glow-text text-foreground">
             Ready to Shape <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               the Future?

@@ -1,28 +1,33 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Sora, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const nunito = Nunito({
-  variable: "--font-nunito",
+const sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["600", "700", "800"],
+});
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "DFL - Da Nang Fintech Lab",
-  description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
+  title: "DFL24 — Da Nang Fintech Lab | Sandbox your Future",
+  description: "Your Gateway to Fintech Innovation in Vietnam. Sandbox-as-a-Service, cross-border testing, regulatory acceleration — everything fintech companies need to build, test, and scale.",
   openGraph: {
-    title: "DFL - Da Nang Fintech Lab",
-    description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
+    title: "DFL24 — Da Nang Fintech Lab | Sandbox your Future",
+    description: "Your Gateway to Fintech Innovation in Vietnam. Sandbox-as-a-Service, cross-border testing, regulatory acceleration — everything fintech companies need to build, test, and scale.",
     type: "website",
-    images: ["/assets/img/dfl_1764273424335.png"],
+    images: ["/assets/img/dfl24-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@replit",
-    title: "DFL - Da Nang Fintech Lab",
-    description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
-    images: ["/assets/img/dfl_1764273424335.png"],
+    title: "DFL24 — Da Nang Fintech Lab | Sandbox your Future",
+    description: "Your Gateway to Fintech Innovation in Vietnam. Sandbox-as-a-Service, cross-border testing, regulatory acceleration — everything fintech companies need to build, test, and scale.",
+    images: ["/assets/img/dfl24-logo.png"],
   },
   icons: {
     icon: "/assets/favicon.png",
@@ -41,11 +46,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
-        className={`${nunito.variable} font-sans antialiased bg-background text-foreground`}
+        className={`${sora.variable} ${dmSans.variable} font-sans antialiased bg-background text-foreground`}
       >
         {children}
       </body>
     </html>
   );
 }
-

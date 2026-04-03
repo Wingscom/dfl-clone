@@ -4,20 +4,19 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "Sovereign Financial Data - Da Nang Fintech Lab",
+  title: "Sovereign Financial Data - DFL24",
   description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
   openGraph: {
-    title: "Sovereign Financial Data - Da Nang Fintech Lab",
+    title: "Sovereign Financial Data - DFL24",
     description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
     type: "website",
-    images: ["/assets/img/dfl_1764273424335.png"],
+    images: ["/assets/img/dfl24-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@replit",
-    title: "Sovereign Financial Data - Da Nang Fintech Lab",
+    title: "Sovereign Financial Data - DFL24",
     description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
-    images: ["/assets/img/dfl_1764273424335.png"],
+    images: ["/assets/img/dfl24-logo.png"],
   }
 };
 
@@ -29,7 +28,7 @@ export default function DataPage() {
         {/* Hero Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center fade-in-up">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text text-black dark:text-white">
+            <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text text-foreground">
               Secure, Compliant Data for <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                 Real Financial Innovation 

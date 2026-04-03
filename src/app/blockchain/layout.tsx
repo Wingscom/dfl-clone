@@ -3,23 +3,22 @@ import type { Metadata } from 'next';
 import Layout from '@/common/Layout';
 
 export const metadata: Metadata = {
-	title: 'Blockchain',
+	title: 'DFL24 — Blockchain',
 	description:
-		'Where AI Meets the Future of Finance in Da Nang. A premiere startup Blockchain in the heart of Da Nang International Fintech District.',
+		'Where AI Meets the Future of Finance in Da Nang. DFL24 explores blockchain innovation in the heart of Da Nang International Fintech District.',
 	openGraph: {
-		title: 'Blockchain - Da Nang Fintech Lab',
+		title: 'DFL24 — Blockchain',
 		description:
-			'Where AI Meets the Future of Finance in Da Nang. A premiere startup Blockchain in the heart of Da Nang International Fintech District.',
+			'Where AI Meets the Future of Finance in Da Nang. DFL24 explores blockchain innovation in the heart of Da Nang International Fintech District.',
 		type: 'website',
-		images: ['/assets/img/dfl_1764273424335.png'],
+		images: ['/assets/img/dfl24-logo.png'],
 	},
 	twitter: {
 		card: 'summary_large_image',
-		site: '@replit',
-		title: 'Blockchain - Da Nang Fintech Lab',
+		title: 'DFL24 — Blockchain',
 		description:
-			'Where AI Meets the Future of Finance in Da Nang. A premiere startup Blockchain in the heart of Da Nang International Fintech District.',
-		images: ['/assets/img/dfl_1764273424335.png'],
+			'Where AI Meets the Future of Finance in Da Nang. DFL24 explores blockchain innovation in the heart of Da Nang International Fintech District.',
+		images: ['/assets/img/dfl24-logo.png'],
 	},
 };
 

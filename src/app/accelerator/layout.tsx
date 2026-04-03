@@ -3,23 +3,22 @@ import type { Metadata } from 'next';
 import Layout from '@/common/Layout';
 
 export const metadata: Metadata = {
-	title: 'Accelerator - Da Nang Fintech Lab',
+	title: 'DFL24 — Accelerator',
 	description:
-		'Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.',
+		'Where AI Meets the Future of Finance in Da Nang. DFL24 is a premiere startup accelerator in the heart of Da Nang International Fintech District.',
 	openGraph: {
-		title: 'Accelerator - Da Nang Fintech Lab',
+		title: 'DFL24 — Accelerator',
 		description:
-			'Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.',
+			'Where AI Meets the Future of Finance in Da Nang. DFL24 is a premiere startup accelerator in the heart of Da Nang International Fintech District.',
 		type: 'website',
-		images: ['/assets/img/dfl_1764273424335.png'],
+		images: ['/assets/img/dfl24-logo.png'],
 	},
 	twitter: {
 		card: 'summary_large_image',
-		site: '@replit',
-		title: 'Accelerator - Da Nang Fintech Lab',
+		title: 'DFL24 — Accelerator',
 		description:
-			'Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.',
-		images: ['/assets/img/dfl_1764273424335.png'],
+			'Where AI Meets the Future of Finance in Da Nang. DFL24 is a premiere startup accelerator in the heart of Da Nang International Fintech District.',
+		images: ['/assets/img/dfl24-logo.png'],
 	},
 };
 

@@ -10,18 +10,6 @@ export default function Page() {
     if (savedTheme === "dark") html.classList.add("dark");
     else html.classList.remove("dark");
 
-    const style = document.createElement("style");
-    style.innerHTML = `
-      .fade-in-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }
-      .fade-in-delayed { animation: fadeIn 0.8s ease-out 0.4s forwards; opacity: 0; }
-      @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
-      @keyframes fadeIn { to { opacity: 1; } }
-    `;
-    document.head.appendChild(style);
-
-    return () => {
-      document.head.removeChild(style);
-    };
   }, []);
 
   function handleMobileLinkClick() {
