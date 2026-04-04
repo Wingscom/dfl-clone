@@ -83,8 +83,8 @@
   --color-light-bg: #F0F4FA;
 
   /* Typography — Sora for headings, DM Sans for body */
-  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-heading: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-sora), "Sora", ui-sans-serif, system-ui, sans-serif;
 
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
