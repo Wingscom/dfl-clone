@@ -5,11 +5,11 @@ import Layout from '@/common/Layout';
 export const metadata: Metadata = {
 	title: 'DFL24 — Blockchain',
 	description:
-		'Where AI Meets the Future of Finance in Da Nang. DFL24 explores blockchain innovation in the heart of Da Nang International Fintech District.',
+		"Build blockchain innovations in DFL24's regulatory sandbox. DeFi, digital assets, RWA tokenization, and enterprise blockchain in Vietnam.",
 	openGraph: {
 		title: 'DFL24 — Blockchain',
 		description:
-			'Where AI Meets the Future of Finance in Da Nang. DFL24 explores blockchain innovation in the heart of Da Nang International Fintech District.',
+			"Build blockchain innovations in DFL24's regulatory sandbox. DeFi, digital assets, RWA tokenization, and enterprise blockchain in Vietnam.",
 		type: 'website',
 		images: ['/assets/img/dfl24-logo.png'],
 	},
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'DFL24 — Blockchain',
 		description:
-			'Where AI Meets the Future of Finance in Da Nang. DFL24 explores blockchain innovation in the heart of Da Nang International Fintech District.',
+			"Build blockchain innovations in DFL24's regulatory sandbox. DeFi, digital assets, RWA tokenization, and enterprise blockchain in Vietnam.",
 		images: ['/assets/img/dfl24-logo.png'],
 	},
 };

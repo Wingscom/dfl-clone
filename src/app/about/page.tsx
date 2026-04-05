@@ -21,7 +21,7 @@ export default function AboutPage() {
     <div className="max-w-7xl mx-auto px-4 md:px-8 pt-40 pb-20 space-y-32">
       {/* Hero / Intro */}
       <div className="text-center space-y-6 max-w-4xl mx-auto fade-in-up">
-        <h1 className="text-5xl md:text-6xl font-black tracking-tighter glow-text ">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-black font-heading tracking-tighter glow-text ">
           DFL24
           <br />
           <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
@@ -39,7 +39,7 @@ export default function AboutPage() {
         <div className="group relative rounded-[2.5rem] overflow-hidden border border-white/5 bg-card/50 backdrop-blur-sm shadow-2xl">
           <div className="grid md:grid-cols-2 gap-0 min-h-125">
             <div className="p-12 md:p-16 flex flex-col justify-center space-y-6 relative z-10 order-2 md:order-1">
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight ">
+              <h2 className="text-4xl md:text-5xl font-bold font-heading leading-tight ">
                 Da Nang Fintech Lab
               </h2>
               <p className="text-lg leading-relaxed font-medium text-muted-foreground">
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">International Team</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">International Team</h3>
             <p className="text-muted-foreground">
               Bringing diverse perspectives and global experience to drive
               innovation in Vietnam.
@@ -105,7 +105,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">Local Expertise</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">Local Expertise</h3>
             <p className="text-muted-foreground">
               Deep understanding of the Vietnamese market, regulations, and
               cultural nuance.
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">
+            <h3 className="text-xl font-bold font-heading mb-2 ">
               World Experts in Fintech x AI
             </h3>
             <p className="text-muted-foreground">
@@ -141,7 +141,7 @@ export default function AboutPage() {
       {/* The Story Behind "24" Section */}
       <div className="space-y-12 scroll-mt-32">
         <div className="text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl md:text-5xl font-bold">The Story Behind &quot;24&quot;</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-heading">The Story Behind &quot;24&quot;</h2>
           <p className="text-xl md:text-3xl font-medium text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
             24 is not a year. It is not a number of hours.<br/>
             It is a statement of identity, unity, and ambition.
@@ -153,25 +153,25 @@ export default function AboutPage() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-8 md:p-10 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow">
-            <h3 className="text-2xl font-bold mb-3 text-primary">Completeness</h3>
+            <h3 className="text-2xl font-bold font-heading mb-3 text-primary">Completeness</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">Just as 24 districts make Đà Nẵng whole, DFL24 brings together every piece of the fintech puzzle: regulation, infrastructure, capital, and talent.</p>
           </div>
           <div className="p-8 md:p-10 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow">
-            <h3 className="text-2xl font-bold mb-3 text-primary">Unwavering Presence</h3>
+            <h3 className="text-2xl font-bold font-heading mb-3 text-primary">Unwavering Presence</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">Like the 24/7 rhythm of a city that never sleeps, we stand ready to support innovators anytime, anywhere.</p>
           </div>
           <div className="p-8 md:p-10 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow">
-            <h3 className="text-2xl font-bold mb-3 text-primary">A Vision Without Borders</h3>
+            <h3 className="text-2xl font-bold font-heading mb-3 text-primary">A Vision Without Borders</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">The two island districts remind us that true innovation knows no boundaries—whether geographical, technological, or regulatory. DFL24 is built to help fintech solutions reach every corner of the nation and beyond.</p>
           </div>
           <div className="p-8 md:p-10 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow">
-            <h3 className="text-2xl font-bold mb-3 text-primary">Rooted Yet Global</h3>
+            <h3 className="text-2xl font-bold font-heading mb-3 text-primary">Rooted Yet Global</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">We draw strength from our local foundation, while thinking and acting on a global scale. 24 is our anchor; Southeast Asia is our horizon.</p>
           </div>
         </div>
         
         <div className="relative rounded-[2.5rem] p-10 md:p-16 text-center space-y-6 bg-primary/5 border border-primary/10">
-          <h3 className="text-2xl md:text-4xl font-bold">More Than a Sandbox.<br/>A Launchpad with Purpose.</h3>
+          <h3 className="text-2xl md:text-4xl font-bold font-heading">More Than a Sandbox.<br/>A Launchpad with Purpose.</h3>
           <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             DFL24 is where fintech meets national pride, where every test case carries the spirit of a city that looks outward to the sea. We are not just building a platform—we are building a legacy of innovation that starts in Đà Nẵng, embraces the islands, and radiates across the region.
           </p>
@@ -181,42 +181,42 @@ export default function AboutPage() {
       {/* What We Deliver Section */}
       <div className="space-y-12 scroll-mt-32">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-bold">What We Deliver</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-heading">What We Deliver</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="p-8 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md hover:bg-card/50 transition-all group">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
             </div>
-            <h3 className="text-xl font-bold mb-3">Sandbox 2.0 Infrastructure</h3>
+            <h3 className="text-xl font-bold font-heading mb-3">Sandbox 2.0 Infrastructure</h3>
             <p className="text-muted-foreground text-lg">A living laboratory that enables real‑world testing with real data, real users, and real market dynamics.</p>
           </div>
           <div className="p-8 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md hover:bg-card/50 transition-all group">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path></svg>
             </div>
-            <h3 className="text-xl font-bold mb-3">Regulatory & Legal Navigation</h3>
+            <h3 className="text-xl font-bold font-heading mb-3">Regulatory & Legal Navigation</h3>
             <p className="text-muted-foreground text-lg">Direct support from experts to streamline approvals and embed compliance from day one.</p>
           </div>
           <div className="p-8 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md hover:bg-card/50 transition-all group">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
             </div>
-            <h3 className="text-xl font-bold mb-3">Cross‑Border Testing</h3>
+            <h3 className="text-xl font-bold font-heading mb-3">Cross‑Border Testing</h3>
             <p className="text-muted-foreground text-lg">A launchpad to Southeast Asia’s most vibrant economies, enabling seamless piloting and scaling across borders.</p>
           </div>
           <div className="p-8 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md hover:bg-card/50 transition-all group lg:col-span-1 lg:col-start-1 lg:col-end-2 lg:-mr-12">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
             </div>
-            <h3 className="text-xl font-bold mb-3">Corporate Innovation</h3>
+            <h3 className="text-xl font-bold font-heading mb-3">Corporate Innovation</h3>
             <p className="text-muted-foreground text-lg">Tailored collaborations with financial institutions and enterprises to co‑create next‑generation solutions.</p>
           </div>
           <div className="p-8 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md hover:bg-card/50 transition-all group lg:col-span-2 lg:-ml-12">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
             </div>
-            <h3 className="text-xl font-bold mb-3">End‑to‑End Growth Support</h3>
+            <h3 className="text-xl font-bold font-heading mb-3">End‑to‑End Growth Support</h3>
             <p className="text-muted-foreground text-lg">From incubation and acceleration to go‑to‑market execution, de‑risking every step of the journey.</p>
           </div>
         </div>
@@ -225,7 +225,7 @@ export default function AboutPage() {
       {/* Team Section */}
       <div className="space-y-12">
         <div className="flex items-end justify-between border-b border-black/5 dark:border-white/5 pb-4">
-          <h2 className="text-3xl md:text-4xl font-bold ">Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-heading ">Team</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -243,7 +243,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-1">
-                <h3 className="text-3xl font-bold ">My Ha Tran</h3>
+                <h3 className="text-3xl font-bold font-heading ">My Ha Tran</h3>
                 <a
                   href="https://www.linkedin.com/in/tranhmy/"
                   target="_blank"
@@ -283,7 +283,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-1">
-                <h3 className="text-3xl font-bold ">Kiel DiGiovanni</h3>
+                <h3 className="text-3xl font-bold font-heading ">Kiel DiGiovanni</h3>
                 <a
                   href="https://www.linkedin.com/in/kiel-digiovanni/"
                   target="_blank"
@@ -323,7 +323,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-1">
-                <h3 className="text-3xl font-bold ">Vincenzo Cartelli</h3>
+                <h3 className="text-3xl font-bold font-heading ">Vincenzo Cartelli</h3>
                 <a
                   href="https://www.linkedin.com/in/vincenzo-cartelli/"
                   target="_blank"
@@ -363,7 +363,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-1">
-                <h3 className="text-3xl font-bold ">Nikhil Porwal</h3>
+                <h3 className="text-3xl font-bold font-heading ">Nikhil Porwal</h3>
                 <a
                   href="https://www.linkedin.com/in/nikhilporwal/"
                   target="_blank"
@@ -403,7 +403,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-1">
-                <h3 className="text-3xl font-bold ">Luciano Wu</h3>
+                <h3 className="text-3xl font-bold font-heading ">Luciano Wu</h3>
                 <a
                   href="https://www.linkedin.com/in/han4wluc/"
                   target="_blank"
@@ -445,7 +445,7 @@ export default function AboutPage() {
               />
             </div>
             <div className="p-12 md:p-16 flex flex-col justify-center space-y-6 relative z-10">
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight ">
+              <h2 className="text-4xl md:text-5xl font-bold font-heading leading-tight ">
                 Da Nang: The Innovation Hub
               </h2>
               <p className="text-lg leading-relaxed font-medium text-muted-foreground">
@@ -477,7 +477,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">High Quality of Life</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">High Quality of Life</h3>
             <p className="text-muted-foreground">
               A perfect blend of urban convenience and natural beauty,
               attracting global talent.
@@ -499,7 +499,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">Strategic Location</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">Strategic Location</h3>
             <p className="text-muted-foreground">
               Central gateway connecting major Asian economies and markets.
             </p>
@@ -532,7 +532,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">
+            <h3 className="text-xl font-bold font-heading mb-2 ">
               Skilled Educated Young Workforce
             </h3>
             <p className="text-muted-foreground">
@@ -624,7 +624,7 @@ export default function AboutPage() {
 
         {/* Infrastructure Stats */}
         <div className="bg-gray-100 rounded-[2.5rem] p-8 md:p-12 border border-black/5 dark:border-white/5">
-          <h3 className="text-2xl font-bold  mb-8 text-center">
+          <h3 className="text-2xl font-bold font-heading  mb-8 text-center">
             Infrastructure at a Glance
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -662,7 +662,7 @@ export default function AboutPage() {
         {/* Map Section */}
         <div className="pt-16 pb-8">
           <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold glow-text  mb-4">
+            <h3 className="text-3xl md:text-4xl font-bold font-heading glow-text  mb-4">
               Strategic Location in Vietnam
             </h3>
             <p className="text-lg text-muted-foreground">
@@ -687,7 +687,7 @@ export default function AboutPage() {
         <div className="group relative rounded-[2.5rem] overflow-hidden border border-white/5 bg-card/50 backdrop-blur-sm shadow-2xl">
           <div className="grid md:grid-cols-2 gap-0 min-h-125">
             <div className="p-12 md:p-16 flex flex-col justify-center space-y-6 relative z-10 order-2 md:order-1">
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight ">
+              <h2 className="text-4xl md:text-5xl font-bold font-heading leading-tight ">
                 Vietnam International Finance Center
               </h2>
               <p className="text-lg leading-relaxed font-medium text-muted-foreground">
@@ -728,7 +728,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">Policy Sandbox</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">Policy Sandbox</h3>
             <p className="text-muted-foreground">
               A safe environment to test and deploy innovative financial
               technologies.
@@ -750,7 +750,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">Robust Legal Framework</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">Robust Legal Framework</h3>
             <p className="text-muted-foreground">
               Clear regulations and protections creating a secure environment
               for innovation.
@@ -772,7 +772,7 @@ export default function AboutPage() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2 ">Global Connectivity</h3>
+            <h3 className="text-xl font-bold font-heading mb-2 ">Global Connectivity</h3>
             <p className="text-muted-foreground">
               Seamless integration with international financial markets and
               partners.
@@ -783,7 +783,7 @@ export default function AboutPage() {
 
       {/* CTA */}
       <div className="text-center space-y-8 py-12">
-        <h2 className="text-3xl md:text-4xl font-bold glow-text ">
+        <h2 className="text-3xl md:text-4xl font-bold font-heading glow-text ">
           Join the Revolution
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

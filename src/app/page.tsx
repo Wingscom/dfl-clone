@@ -23,7 +23,7 @@ export default function Home() {
           </FadeInUp>
 
           <FadeInUp delay={0.1}>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] text-white font-heading">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] text-white font-heading">
               Your Gateway to <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-electric to-teal">
                 Fintech Innovation

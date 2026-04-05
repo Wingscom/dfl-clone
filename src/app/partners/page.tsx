@@ -10,7 +10,7 @@ export default function PartnersPage() {
 
         {/* Hero Section */}
         <div className="text-center space-y-6 max-w-4xl mx-auto fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight glow-text text-foreground font-heading">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-tight glow-text text-foreground font-heading">
             Backed by Global <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               World Class Innovators

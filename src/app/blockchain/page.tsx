@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Page() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,15 +31,16 @@ export default function Page() {
           <div className="relative rounded-[2.5rem] overflow-hidden border border-white/5 bg-card/50 backdrop-blur-sm shadow-2xl min-h-[60vh] flex items-center">
             <div className="absolute inset-0 z-0">
               <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent z-10" />
-              <img
+              <Image
                 src="/assets/img/blockchain-hero.jpg"
                 alt="Blockchain Future"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
 
             <div className="relative z-20 max-w-4xl p-12 md:p-20 space-y-8">
-              <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black font-heading tracking-tighter leading-tight text-white">
                 The Future of <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-highlight">
                   Blockchain Innovation
@@ -74,7 +76,7 @@ export default function Page() {
                   <path d="M9 21V9" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold ">
+              <h3 className="text-2xl font-bold font-heading ">
                 Regulatory Sandbox
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -102,7 +104,7 @@ export default function Page() {
                   <path d="M12 6v6l4 2" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold ">
+              <h3 className="text-2xl font-bold font-heading ">
                 Speed to Market
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -131,7 +133,7 @@ export default function Page() {
                   <line x1="23" x2="20" y1="8" y2="11" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold ">
+              <h3 className="text-2xl font-bold font-heading ">
                 Access to Talent
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -145,7 +147,7 @@ export default function Page() {
           {/* Focus Areas */}
           <div id="program-details" className="space-y-12">
             <div className="text-center max-w-3xl mx-auto space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold ">
+              <h2 className="text-4xl md:text-5xl font-bold font-heading ">
                 Core Focus Areas
               </h2>
               <p className="text-xl text-muted-foreground">
@@ -161,7 +163,7 @@ export default function Page() {
                   <span className="text-2xl font-bold">01</span>
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-2xl font-bold ">
+                  <h3 className="text-2xl font-bold font-heading ">
                     DeFi & Digital Assets
                   </h3>
                   <p className="text-muted-foreground text-lg">
@@ -177,7 +179,7 @@ export default function Page() {
                   <span className="text-2xl font-bold">02</span>
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-2xl font-bold ">
+                  <h3 className="text-2xl font-bold font-heading ">
                     Real World Assets (RWA)
                   </h3>
                   <p className="text-muted-foreground text-lg">
@@ -193,7 +195,7 @@ export default function Page() {
                   <span className="text-2xl font-bold">03</span>
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-2xl font-bold ">
+                  <h3 className="text-2xl font-bold font-heading ">
                     Enterprise Blockchain
                   </h3>
                   <p className="text-muted-foreground text-lg">
@@ -209,7 +211,7 @@ export default function Page() {
                   <span className="text-2xl font-bold">04</span>
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-2xl font-bold ">
+                  <h3 className="text-2xl font-bold font-heading ">
                     Blockchain Infrastructure
                   </h3>
                   <p className="text-muted-foreground text-lg">
@@ -228,7 +230,7 @@ export default function Page() {
           >
             <div className="absolute inset-0 bg-[url('/assets/img/grid-pattern.svg')] opacity-10" />
             <div className="relative z-10 max-w-3xl mx-auto space-y-6">
-              <h2 className="text-3xl md:text-5xl font-bold text-white">
+              <h2 className="text-3xl md:text-5xl font-bold font-heading text-white">
                 Start Building the Future
               </h2>
               <p className="text-xl text-gray-300">

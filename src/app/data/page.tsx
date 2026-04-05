@@ -4,18 +4,18 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "Sovereign Financial Data - DFL24",
-  description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
+  title: "DFL24 — Data",
+  description: "DFL24 Financial Data Warehouse — Vietnam's first sovereign, privacy-preserving data platform. PDPD-aligned, synthetic data, differential privacy.",
   openGraph: {
-    title: "Sovereign Financial Data - DFL24",
-    description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
+    title: "DFL24 — Data",
+    description: "DFL24 Financial Data Warehouse — Vietnam's first sovereign, privacy-preserving data platform. PDPD-aligned, synthetic data, differential privacy.",
     type: "website",
     images: ["/assets/img/dfl24-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sovereign Financial Data - DFL24",
-    description: "Where AI Meets the Future of Finance in Da Nang. A premiere startup accelerator in the heart of Da Nang International Fintech District.",
+    title: "DFL24 — Data",
+    description: "DFL24 Financial Data Warehouse — Vietnam's first sovereign, privacy-preserving data platform. PDPD-aligned, synthetic data, differential privacy.",
     images: ["/assets/img/dfl24-logo.png"],
   }
 };

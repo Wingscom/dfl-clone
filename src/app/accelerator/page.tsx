@@ -19,7 +19,7 @@ export default function FundingPage() {
 					</FadeInUp>
 
 					<FadeInUp delay={0.1}>
-						<h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-white font-heading">
+						<h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-white font-heading">
 							Funding &<br />
 							<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-electric to-teal">Growth Programs</span>
 						</h1>
@@ -102,7 +102,7 @@ export default function FundingPage() {
 							{
 								stage: "Pre-Seed", range: "$50K \u2013 $150K", color: "primary",
 								desc: "Early-stage founders with a strong thesis. We provide sandbox access, initial capital, and regulatory guidance to validate your concept.",
-								includes: ["Sandbox-as-a-Service access", "Compliance advisory", "Mentor network access"],
+								includes: ["Sandbox-as-a-Service access", "Compliance advisory", "Expert advisory network"],
 							},
 							{
 								stage: "Seed", range: "$150K \u2013 $500K", color: "accent",

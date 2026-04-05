@@ -22,7 +22,7 @@ export default function Vision() {
 
           <div className="relative z-20 max-w-4xl p-12 md:p-20 space-y-8">
 
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-black font-heading tracking-tighter leading-tight text-white">
               Building the <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                 Silicon Valley
@@ -39,7 +39,7 @@ export default function Vision() {
         {/* Strategic Initiative Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground leading-tight">
               Complementing the Ecosystems of HCMC & Singapore
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
@@ -64,7 +64,7 @@ export default function Vision() {
         {/* Mission Targets (The Numbers) */}
         <div className="bg-gray-100 rounded-[2.5rem] p-12 md:p-20 border border-black/5 dark:border-white/5">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-foreground">Our 2030 Mission</h2>
+            <h2 className="text-3xl md:text-5xl font-bold font-heading text-foreground">Our 2030 Mission</h2>
             <p className="text-xl text-muted-foreground">Ambitious targets driving real economic impact for Central Vietnam.</p>
           </div>
 
@@ -74,7 +74,7 @@ export default function Vision() {
               <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-primary to-accent">
                 200
               </div>
-              <h3 className="text-2xl font-bold text-foreground">Startups Incubated</h3>
+              <h3 className="text-2xl font-bold font-heading text-foreground">Startups Incubated</h3>
               <p className="text-muted-foreground">Nurturing high-growth ventures in AI, Blockchain, and Green Finance.</p>
             </div>
 
@@ -83,7 +83,7 @@ export default function Vision() {
               <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-primary to-highlight">
                 2,000
               </div>
-              <h3 className="text-2xl font-bold text-foreground">High-Quality Jobs</h3>
+              <h3 className="text-2xl font-bold font-heading text-foreground">High-Quality Jobs</h3>
               <p className="text-muted-foreground">Creating careers for the next generation of Vietnamese tech talent.</p>
             </div>
 
@@ -92,7 +92,7 @@ export default function Vision() {
               <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-secondary to-highlight">
                 $200M
               </div>
-              <h3 className="text-2xl font-bold text-foreground">Investment Attracted</h3>
+              <h3 className="text-2xl font-bold font-heading text-foreground">Investment Attracted</h3>
               <p className="text-muted-foreground">Direct foreign investment into Da Nang&apos;s digital economy.</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Vision() {
 
         {/* CTA */}
         <div className="text-center space-y-8 pt-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Be Part of the Vision</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-heading text-foreground">Be Part of the Vision</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center whitespace-nowrap text-base font-bold transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full bg-primary hover:bg-primary/90 text-white shadow-xl hover:shadow-2xl h-12 px-8">
               Apply for Sandbox

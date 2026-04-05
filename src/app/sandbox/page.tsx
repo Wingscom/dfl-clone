@@ -40,7 +40,7 @@ export default function SandboxPage() {
 					</FadeInUp>
 
 					<FadeInUp delay={0.1}>
-						<h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-white font-heading">
+						<h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-white font-heading">
 							Your Fintech <br />
 							<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-electric to-teal">API Hub</span>
 						</h1>
