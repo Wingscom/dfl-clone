@@ -99,7 +99,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xl md:text-2xl font-bold text-foreground">Email</p>
-                    <p className="text-base md:text-lg leading-relaxed text-muted-foreground mt-1">phong.do@dfl24.com</p>
+                    <p className="text-base md:text-lg leading-relaxed text-muted-foreground mt-1">contact@dfl24.com</p>
                   </div>
                 </div>
 
@@ -165,7 +165,7 @@ export default function Footer() {
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground flex gap-4 flex-wrap">
-            <span>&copy; {currentYear} DFL24 — Da Nang Fintech Lab. All rights reserved.</span>
+            <span>&copy; {currentYear} DFL24 — Danang Fintech Lab. All rights reserved.</span>
           </p>
         </div>
       </div>

@@ -15,17 +15,17 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DFL24 — Da Nang Fintech Lab | Sandbox your Future",
+  title: "DFL24 — Danang Fintech Lab | Sandbox your Future",
   description: "Your Gateway to Fintech Innovation in Vietnam. Sandbox-as-a-Service, cross-border testing, regulatory acceleration — everything fintech companies need to build, test, and scale.",
   openGraph: {
-    title: "DFL24 — Da Nang Fintech Lab | Sandbox your Future",
+    title: "DFL24 — Danang Fintech Lab | Sandbox your Future",
     description: "Your Gateway to Fintech Innovation in Vietnam. Sandbox-as-a-Service, cross-border testing, regulatory acceleration — everything fintech companies need to build, test, and scale.",
     type: "website",
     images: ["/assets/img/dfl24-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "DFL24 — Da Nang Fintech Lab | Sandbox your Future",
+    title: "DFL24 — Danang Fintech Lab | Sandbox your Future",
     description: "Your Gateway to Fintech Innovation in Vietnam. Sandbox-as-a-Service, cross-border testing, regulatory acceleration — everything fintech companies need to build, test, and scale.",
     images: ["/assets/img/dfl24-logo.png"],
   },

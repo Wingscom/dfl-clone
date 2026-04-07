@@ -7,7 +7,7 @@ export default function Contact() {
   useEffect(() => {
     // Simple obfuscation to prevent basic scraping
     const link = document.getElementById('contact-email') as HTMLAnchorElement;
-    const u = 'phong.do';
+    const u = 'contact';
     const d = 'dfl24.com';
 
     if (link) {
@@ -34,7 +34,7 @@ export default function Contact() {
           </h1>
 
           <p className="text-xl md:text-2xl font-medium text-muted-foreground">
-            Join us at the Da Nang Fintech Lab and be part of the next wave of financial innovation.
+            Join us at the Danang Fintech Lab and be part of the next wave of financial innovation.
           </p>
 
           <div className="pt-8">

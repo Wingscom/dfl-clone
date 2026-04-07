@@ -35,7 +35,7 @@ export default function SandboxPage() {
 				<div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
 					<FadeInUp>
 						<div className="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md">
-							<span className="text-sm font-bold tracking-widest uppercase text-teal-light">Sandbox 2.0 &mdash; Real-World Pilot Environment</span>
+							<span className="text-sm font-bold tracking-widest uppercase text-teal-light">Sandbox 2.0 &mdash; Testing inside VIFC &#272;&#224; N&#7861;ng</span>
 						</div>
 					</FadeInUp>
 

@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-0 min-h-125">
             <div className="p-12 md:p-16 flex flex-col justify-center space-y-6 relative z-10 order-2 md:order-1">
               <h2 className="text-4xl md:text-5xl font-bold font-heading leading-tight ">
-                Da Nang Fintech Lab
+                Danang Fintech Lab
               </h2>
               <p className="text-lg leading-relaxed font-medium text-muted-foreground">
                 DFL24 is not just a fintech sandbox. It is a purpose‑built innovation ecosystem, strategically anchored inside the Vietnam International Financial Centre (VIFC) in Đà Nẵng. As one of the first 10 strategic investors licensed as members of VIFC Đà Nẵng, we stand at the forefront of shaping Vietnam’s new financial landscape.
