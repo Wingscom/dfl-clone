@@ -48,7 +48,7 @@ export default function SandboxPage() {
 
 					<FadeInUp delay={0.2}>
 						<p className="text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed text-white/80">
-							Sandbox infrastructure, API integrations, and compliance layers &mdash; everything you need to build, test, and scale fintech products in a live market environment.
+							Sandbox infrastructure, API integrations, and compliance layers &mdash; everything you need to build, test, and scale fintech products. Powered inside <strong className="text-teal-light">VIFC &mdash; Vietnam International Financial Centre, &#272;&#224; N&#7861;ng</strong>.
 						</p>
 					</FadeInUp>
 

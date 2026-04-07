@@ -44,7 +44,9 @@ export default function Header() {
       <nav className="w-full max-w-7xl bg-white/80 backdrop-blur-xl border border-black/5 dark:border-white/10 dark:bg-navy/80 rounded-md px-4 md:px-8 py-3 flex items-center justify-between shadow-sm shadow-black/[0.02] dark:shadow-black/5">
         <div className="flex items-center gap-3">
           <Link href="/" className="block">
-            <Image src="/assets/img/dfl24-logo.png" alt="DFL24 Logo" width={220} height={100} className="h-10 w-auto object-contain mix-blend-multiply dark:mix-blend-normal" />
+            <span className="inline-flex items-center bg-white rounded-lg px-2 py-1 shadow-sm">
+              <Image src="/assets/img/dfl24-logo.png" alt="DFL24 Logo" width={220} height={100} className="h-8 w-auto object-contain" />
+            </span>
           </Link>
         </div>
 
