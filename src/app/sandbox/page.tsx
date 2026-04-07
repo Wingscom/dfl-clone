@@ -35,7 +35,7 @@ export default function SandboxPage() {
 				<div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
 					<FadeInUp>
 						<div className="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md">
-							<span className="text-sm font-bold tracking-widest uppercase text-teal-light">Sandbox 2.0 &mdash; Testing inside VIFC &#272;&#224; N&#7861;ng</span>
+							<span className="text-sm font-bold tracking-widest uppercase text-teal-light">Sandbox 2.0 &mdash; Testing inside VIFC Danang</span>
 						</div>
 					</FadeInUp>
 
@@ -48,7 +48,7 @@ export default function SandboxPage() {
 
 					<FadeInUp delay={0.2}>
 						<p className="text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed text-white/80">
-							Sandbox infrastructure, API integrations, and compliance layers &mdash; everything you need to build, test, and scale fintech products. Powered inside <strong className="text-teal-light">VIFC &mdash; Vietnam International Financial Centre, &#272;&#224; N&#7861;ng</strong>.
+							Sandbox infrastructure, API integrations, and compliance layers &mdash; everything you need to build, test, and scale fintech products. Powered inside <strong className="text-teal-light">VIFC &mdash; Vietnam International Financial Centre, Danang</strong>.
 						</p>
 					</FadeInUp>
 

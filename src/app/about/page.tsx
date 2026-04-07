@@ -43,7 +43,7 @@ export default function AboutPage() {
                 Danang Fintech Lab
               </h2>
               <p className="text-lg leading-relaxed font-medium text-muted-foreground">
-                DFL24 is not just a fintech sandbox. It is a purpose‑built innovation ecosystem, strategically anchored inside the Vietnam International Financial Centre (VIFC) in Đà Nẵng. As one of the first 10 strategic investors licensed as members of VIFC Đà Nẵng, we stand at the forefront of shaping Vietnam’s new financial landscape.
+                DFL24 is not just a fintech sandbox. It is a purpose‑built innovation ecosystem, strategically anchored inside the <strong>Vietnam International Financial Centre (VIFC)</strong> in Danang. As one of the first 10 strategic investors licensed as members of <strong>VIFC Danang</strong>, we stand at the forefront of shaping Vietnam’s new financial landscape.
 
               </p>
             </div>
@@ -147,14 +147,14 @@ export default function AboutPage() {
             It is a statement of identity, unity, and ambition.
           </p>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            24 stands for the 24 districts and townships of Đà Nẵng – including the two island districts of Hoang Sa (Paracel) and Truong Sa (Spratly). Together, they form the complete administrative map of our city, a place where the mainland meets the ocean, and where innovation carries the responsibility of sovereignty.
+            24 stands for the 24 districts and townships of Danang – including the two island districts of Hoang Sa (Paracel) and Truong Sa (Spratly). Together, they form the complete administrative map of our city, a place where the mainland meets the ocean, and where innovation carries the responsibility of sovereignty.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-8 md:p-10 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow">
             <h3 className="text-2xl font-bold font-heading mb-3 text-primary">Completeness</h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">Just as 24 districts make Đà Nẵng whole, DFL24 brings together every piece of the fintech puzzle: regulation, infrastructure, capital, and talent.</p>
+            <p className="text-lg text-muted-foreground leading-relaxed">Just as 24 districts make Danang whole, DFL24 brings together every piece of the fintech puzzle: regulation, infrastructure, capital, and talent.</p>
           </div>
           <div className="p-8 md:p-10 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow">
             <h3 className="text-2xl font-bold font-heading mb-3 text-primary">Unwavering Presence</h3>
@@ -173,7 +173,7 @@ export default function AboutPage() {
         <div className="relative rounded-[2.5rem] p-10 md:p-16 text-center space-y-6 bg-primary/5 border border-primary/10">
           <h3 className="text-2xl md:text-4xl font-bold font-heading">More Than a Sandbox.<br/>A Launchpad with Purpose.</h3>
           <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            DFL24 is where fintech meets national pride, where every test case carries the spirit of a city that looks outward to the sea. We are not just building a platform—we are building a legacy of innovation that starts in Đà Nẵng, embraces the islands, and radiates across the region.
+            DFL24 is where fintech meets national pride, where every test case carries the spirit of a city that looks outward to the sea. We are not just building a platform—we are building a legacy of innovation that starts in Danang, embraces the islands, and radiates across the region.
           </p>
         </div>
       </div>

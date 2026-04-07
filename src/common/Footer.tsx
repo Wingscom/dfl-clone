@@ -118,10 +118,10 @@ export default function Footer() {
             <div className="rounded-[1.75rem] bg-gradient-to-br from-navy to-blue-logo p-6 md:p-8 text-white shadow-xl">
               <h4 className="text-xl md:text-2xl font-bold font-heading">Join DFL24 in DAVAS 2026</h4>
               <p className="mt-4 text-base md:text-lg text-white/90 leading-relaxed">Connect with fintech & AI experts in Da Nang.</p>
-              <Link href="/partners" className="inline-flex mt-7 items-center gap-2 text-lg md:text-xl font-bold text-white underline underline-offset-4 hover:text-teal-light transition-colors">
+              <a href="https://davas.vc/" target="_blank" rel="noopener noreferrer" className="inline-flex mt-7 items-center gap-2 text-lg md:text-xl font-bold text-white underline underline-offset-4 hover:text-teal-light transition-colors">
                 Learn more
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-5-5 5 5-5 5" /></svg>
-              </Link>
+              </a>
             </div>
           </div>
         </section>

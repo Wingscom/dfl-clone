@@ -1,6 +1,6 @@
 import Layout from "@/common/Layout";
 import Link from "next/link";
-import { FadeInUp, FadeIn } from "@/common/AnimationWrapper";
+import { FadeInUp } from "@/common/AnimationWrapper";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
           <FadeInUp>
             <div className="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md shadow-sm">
               <span className="text-sm font-bold tracking-widest uppercase text-teal-light">
-                Sandbox Testing in VIFC &#272;&#224; N&#7861;ng
+                Sandbox Testing in VIFC Danang
               </span>
             </div>
           </FadeInUp>
@@ -49,12 +49,14 @@ export default function Home() {
                 Apply for Sandbox
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </Link>
-              <Link
-                href="/partners"
+              <a
+                href="https://davas.vc/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 text-base font-bold text-white bg-transparent border border-white/30 hover:bg-white/10 h-14 px-10 rounded-full shadow-md transition-all duration-300"
               >
                 Join DFL24 in DAVAS 2026
-              </Link>
+              </a>
             </div>
           </FadeInUp>
         </div>
@@ -73,7 +75,7 @@ export default function Home() {
                 DFL24 &ndash; Danang Fintech Lab. Where innovation meets sovereignty. Where every district becomes a gateway to the future.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                DFL24 is not just a fintech sandbox. It is a purpose-built innovation ecosystem, strategically anchored inside the Vietnam International Financial Centre (VIFC) in &#272;&#224; N&#7861;ng. As one of the first 10 strategic investors licensed as members of VIFC &#272;&#224; N&#7861;ng, we stand at the forefront of shaping Vietnam&apos;s new financial landscape.
+                DFL24 is not just a fintech sandbox. It is a purpose-built innovation ecosystem, strategically anchored inside the <strong className="text-foreground">Vietnam International Financial Centre (VIFC)</strong> in Danang. As one of the first 10 strategic investors licensed as members of <strong className="text-foreground">VIFC Danang</strong>, we stand at the forefront of shaping Vietnam&apos;s new financial landscape.
               </p>
             </div>
           </FadeInUp>
@@ -117,7 +119,7 @@ export default function Home() {
                 24 is not a year. It is not a number of hours. It is a statement of identity, unity, and ambition.
               </p>
               <p className="text-lg text-white/80 leading-relaxed">
-                24 stands for the 24 districts and townships of &#272;&#224; N&#7861;ng &ndash; including the two island districts of Ho&#224;ng Sa (Paracel) and Tr&#432;&#7901;ng Sa (Spratly).
+                24 stands for the 24 districts and townships of Danang &ndash; including the two island districts of Ho&#224;ng Sa (Paracel) and Tr&#432;&#7901;ng Sa (Spratly).
               </p>
             </div>
           </FadeInUp>

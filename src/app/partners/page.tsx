@@ -93,10 +93,6 @@ export default function PartnersPage() {
               <Image src="/assets/img/quest-ventures-logo.png" alt="Quest Ventures" fill className="object-contain p-4" />
             </div>
 
-            {/* APAC DAO */}
-            <div className="flex items-center justify-center p-4 md:p-8 rounded-2xl md:rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-300 h-24 md:h-32 relative">
-              <Image src="/assets/img/apacdao-logo.png" alt="APAC DAO" fill className="object-contain p-4" />
-            </div>
 
             {/* VPlus */}
             <div className="flex items-center justify-center p-4 md:p-8 rounded-2xl md:rounded-[2rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-300 h-24 md:h-32 relative">
