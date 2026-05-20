@@ -82,8 +82,8 @@
   --color-light-gray: #F5F7FA;
   --color-light-bg: #F0F4FA;
 
-  /* Typography — Inter for headings (compact VI diacritics), DM Sans for body */
-  --font-sans: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  /* Typography — Inter for everything (compact VI diacritics, full Vietnamese subset) */
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
 
   --radius-md: calc(var(--radius) - 2px);
