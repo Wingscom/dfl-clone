@@ -3,8 +3,21 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useLang } from '@/i18n/LanguageContext';
+import LanguageToggle from './LanguageToggle';
+
+const nav = {
+  sandbox: { en: 'Sandbox', vi: 'Sandbox' },
+  funding: { en: 'Funding', vi: 'Vốn đầu tư' },
+  about: { en: 'About', vi: 'Về chúng tôi' },
+  aboutDfl24: { en: 'DFL24', vi: 'DFL24' },
+  vision: { en: 'Vision', vi: 'Tầm nhìn' },
+  partners: { en: 'Partners', vi: 'Đối tác' },
+  applyNow: { en: 'Apply Now', vi: 'Đăng ký ngay' },
+};
 
 export default function Header() {
+  const { t } = useLang();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
@@ -52,40 +65,39 @@ export default function Header() {
 
         {/* Desktop: Sandbox▼, Funding, About▼, Partners, [Apply Now] */}
         <div className="hidden md:flex items-center gap-8 text-sm font-bold text-navy dark:text-white">
-          {/* 1. Sandbox — flat */}
           <Link href="/sandbox" className="hover:text-blue-electric transition-colors">
-            Sandbox
+            {t(nav.sandbox)}
           </Link>
 
-          {/* 2. Funding — flat */}
           <Link href="/accelerator" className="hover:text-blue-electric transition-colors">
-            Funding
+            {t(nav.funding)}
           </Link>
 
-          {/* 3. About — dropdown */}
           <div className="relative group">
             <Link href="/about" className="flex items-center gap-1 hover:text-blue-electric transition-colors">
-              About
+              {t(nav.about)}
               <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </Link>
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-44 hidden group-hover:block">
               <div className="bg-white dark:bg-navy border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
-                <Link href="/about" className="block px-4 py-2.5 text-navy dark:text-white hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">DFL24</Link>
-                <Link href="/vision" className="block px-4 py-2.5 text-navy dark:text-white hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Vision</Link>
+                <Link href="/about" className="block px-4 py-2.5 text-navy dark:text-white hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">{t(nav.aboutDfl24)}</Link>
+                <Link href="/vision" className="block px-4 py-2.5 text-navy dark:text-white hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">{t(nav.vision)}</Link>
               </div>
             </div>
           </div>
 
-          {/* 4. Partners — flat */}
           <Link href="/partners" className="hover:text-blue-electric transition-colors">
-            Partners
+            {t(nav.partners)}
           </Link>
         </div>
 
-        {/* 5. CTA */}
-        <Link href="/contact" className="hidden md:inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full px-6 bg-blue-electric hover:bg-blue-electric/90 text-white shadow-[0_0_20px_rgba(47,128,237,0.3)] hover:shadow-[0_0_30px_rgba(47,128,237,0.5)] duration-300 h-10">
-          Apply Now
-        </Link>
+        {/* Right side: toggle + CTA */}
+        <div className="hidden md:flex items-center gap-3">
+          <LanguageToggle />
+          <Link href="/contact" className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full px-6 bg-blue-electric hover:bg-blue-electric/90 text-white shadow-[0_0_20px_rgba(47,128,237,0.3)] hover:shadow-[0_0_30px_rgba(47,128,237,0.5)] duration-300 h-10">
+            {t(nav.applyNow)}
+          </Link>
+        </div>
 
         {/* Mobile Menu Button */}
         <button onClick={toggleMobileMenu} className="md:hidden p-2 -mr-2 text-navy dark:text-white focus:outline-none" aria-label="Toggle menu">
@@ -103,36 +115,35 @@ export default function Header() {
           isMobileMenuOpen ? 'scale-100 opacity-100' : 'scale-95 opacity-0 pointer-events-none'
         }`}
       >
-        {/* Sandbox — flat */}
         <Link href="/sandbox" onClick={toggleMobileMenu} className="px-4 py-3 text-lg font-bold text-navy dark:text-white hover:text-blue-electric transition-colors">
-          Sandbox
+          {t(nav.sandbox)}
         </Link>
 
-        {/* Funding — flat */}
         <Link href="/accelerator" onClick={toggleMobileMenu} className="px-4 py-3 text-lg font-bold text-navy dark:text-white hover:text-blue-electric transition-colors">
-          Funding
+          {t(nav.funding)}
         </Link>
 
-        {/* About — accordion */}
         <div className="space-y-1">
           <button onClick={() => toggleDropdown('about')} className="w-full flex items-center justify-between px-4 py-3 text-lg font-bold text-navy dark:text-white">
-            About
+            {t(nav.about)}
             <svg className={`w-5 h-5 transition-transform ${openDropdown === 'about' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
           </button>
           <div className={`space-y-1 overflow-hidden transition-all duration-300 ${openDropdown === 'about' ? 'max-h-40' : 'max-h-0'}`}>
-            <Link href="/about" onClick={toggleMobileMenu} className="block px-6 py-3 text-base font-medium text-foreground hover:bg-primary/10 hover:text-primary rounded-xl transition-colors">DFL24</Link>
-            <Link href="/vision" onClick={toggleMobileMenu} className="block px-6 py-3 text-base font-medium text-foreground hover:bg-primary/10 hover:text-primary rounded-xl transition-colors">Vision</Link>
+            <Link href="/about" onClick={toggleMobileMenu} className="block px-6 py-3 text-base font-medium text-foreground hover:bg-primary/10 hover:text-primary rounded-xl transition-colors">{t(nav.aboutDfl24)}</Link>
+            <Link href="/vision" onClick={toggleMobileMenu} className="block px-6 py-3 text-base font-medium text-foreground hover:bg-primary/10 hover:text-primary rounded-xl transition-colors">{t(nav.vision)}</Link>
           </div>
         </div>
 
-        {/* Partners — flat */}
         <Link href="/partners" onClick={toggleMobileMenu} className="px-4 py-3 text-lg font-bold text-navy dark:text-white hover:text-blue-electric transition-colors">
-          Partners
+          {t(nav.partners)}
         </Link>
 
-        <div className="pt-4 border-t border-black/5 dark:border-white/5">
+        <div className="pt-4 border-t border-black/5 dark:border-white/5 flex flex-col gap-4 items-stretch">
+          <div className="flex justify-center">
+            <LanguageToggle />
+          </div>
           <Link href="/contact" onClick={toggleMobileMenu} className="flex items-center justify-center w-full py-4 text-lg font-bold text-white bg-blue-electric rounded-xl shadow-lg">
-            Apply Now
+            {t(nav.applyNow)}
           </Link>
         </div>
       </div>
